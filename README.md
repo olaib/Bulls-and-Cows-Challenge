@@ -1,9 +1,13 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/YDg-_nm7)
-## Authors
-* Name: Ola Ibrahim Email: <a href="OlaIb@edu.hac.ac.il">OlaIb@edu.hac.ac.il</a>
-* Name: Abigail Untershatz  Email: <a href="AbigailUn@edu.hac.ac.il">AbigailUn@edu.hac.ac.il</a>
+
+![game](./react-client/src/assets/img/game.png)
+
+![rules](./react-client/src/assets/img/rules.png)
+
+![highscores](./react-client/src/assets/img/highscores.png)
 
 ## Explanations
+
 ### The game
 * The game is a simple game of cows and bulls.
 * player must guess 4 different digits.

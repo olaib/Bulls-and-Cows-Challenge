@@ -45,12 +45,12 @@ const Banner = (props) => {
                     <Collapse in={props.isOpen} dimension="width">
                         <div id="game-rules">
                             <Card className="text-lg-start bg-opacity-75 shadow-lg bg-warning" body>
-                                <p>{GAME_RULES.map((row) =>
-                                    <>
+                                <p>{GAME_RULES.map((row,index) =>
+                                    <span key={`row-${index}`}>
                                         {row}
                                         <br>
                                         </br>
-                                    </>)
+                                    </span>)
                                 })
                                 </p>
                             </Card>

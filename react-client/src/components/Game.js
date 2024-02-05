@@ -44,7 +44,9 @@ const Game = () => {
             let rand = Math.floor(Math.random() * RANGE);
             randNums.add(rand);
         }
-        return Array.from(randNums);
+        const RandNumbnessToArr = Array.from(randNums);
+        console.log(`Game starting...\nGuessed is: [${RandNumbnessToArr}]`)
+        return RandNumbnessToArr;
     }
 
     /**
